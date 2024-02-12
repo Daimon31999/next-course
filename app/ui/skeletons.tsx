@@ -202,7 +202,7 @@ export function InvoicesTableSkeleton() {
                 </th>
               </tr>
             </thead>
-            <tbody className="bg-white">
+            <tbody className={`${shimmer} relative bg-white`}>
               <TableRowSkeleton />
               <TableRowSkeleton />
               <TableRowSkeleton />
